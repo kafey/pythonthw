@@ -1,0 +1,7 @@
+print "I'll show you how to read from file"
+filename = raw_input("> ")
+
+txt = open(filename)
+
+print "this is our statement:"
+print txt.read()
